@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Resume</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="header">
+            <div class="cover-photo"></div>
+            <img class="avatar" src="images/profile-avatar.jpg" />
+            <h1 id="fullname"></h1>
+            <h3 id="location" style="margin-top:12px;"></h3>
+            <div id="position"></div>
+            <br> <br> <br>
+        </div>
+        <!---close header-->
+        <!---start education attainment-->
+        <div class="card">
+            <h2>Education</h2>
+
+            <table style="width:100%;text-align:left;">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Course</th>
+                    <th>School</th>
+                    <th>Year Graduated</th>
+                </tr>
+                <tbody id="educationRows"></tbody>
+            </table>
+        </div>
+        <!---close education attainment-->
+        <!---start Work Exp-->
+        <div class="card">
+            <h2>Work Experience</h2>
+
+            <table style="width:100%;text-align:left;">
+                <tr>
+                    <th></th>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Work Duration</th>
+                </tr>
+                <tr>
+
+                    <td>
+                        <img style="height:120px;"
+                             src="images/teleperformance.png" class="school" />
+                    </td>
+                    <td>Teleperformance</td>
+                    <td>Desktop Support</td>
+                    <td>Feb 2022-Oct 2022</td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <img style="height:110px;"
+                             src="images/PSA.jpg" class="school" />
+                    </td>
+                    <td>PSA</td>
+                    <td>Map Data Processor</td>
+                    <td>Mar 2021-Jan 2022</td>
+                </tr>
+            </table>
+        </div>
+        <!---close Work Exp-->
+        <!---start Skills-->
+        <div class="card">
+            <h2>Skills</h2>
+            <br>
+            <ul id="myskills"></ul>
+                <h4>Legends</h4>
+                <div style="display:flex;">
+                    <span class="legend-tittle">Beginner</span>
+                    <div class="legend-color-lightcoral legend-color" style="margin-right:10px;width:20px;height:20px;background-color:lightcoral;"></div>
+
+                    <span class="legend-tittle">Intermediate</span>
+                    <div class="legend-color-lightblue legend-color" style="margin-right:10px;width:20px;height:20px;background-color:lightblue;"></div>
+
+                    <span class="legend-tittle">Professional</span>
+                    <div class="legend-color-lighgreen legend-color" style="margin-right:10px;width:20px;height:20px;background-color:lightgreen;"></div>
+                </div>
+                
+                
+
+            
+        </div>
+        <!---close Skills-->
+
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
